@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- setting up -->
+<head>
+    <meta charset="UTF-8">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>amy wellcoat</title>
+</head>
+
+<body>
+<!-- Dropdown Navigation bar Structure -->
+<ul id="dropdown1" class="dropdown-content ">
+    <li><a class="pink-text text-lighten-3" href="https://instagram.com/adoubleu_design" style="font-weight: bold">instagram</a>
+    </li>
+    <li><a class="pink-text text-lighten-3" href="https://www.facebook.com/adoubleudesign/" style="font-weight: bold">facebook</a>
+    </li>
+    <li><a class="pink-text text-lighten-3" href="https://www.linkedin.com/in/amy-wellcoat-624a52190"
+           style="font-weight: bold">linkedin</a></li>
+</ul>
+<div class="navbar-fixed">
+    <nav class="pink lighten-3 z-depth-0 ">
+        <div class="nav-wrapper container ">
+            <!-- page title -->
+            <a id="logo-container2" href="index.html" class="brand-logo white-text"
+               style="font-weight: bold;font-size:22px;">amy wellcoat</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons white-text">menu</i></a>
+            <!-- hideable nav buttons -->
+            <ul class="right hide-on-med-and-down">
+                <li><a href="aboutme.html">
+                    <div class="white-text" style="font-weight: bold">about me</div>
+                </a></li>
+                <li><a href="portfolio.html">
+                    <div class="white-text" style="font-weight: bold">portfolio</div>
+                </a></li>
+                <!-- Dropdown Trigger -->
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1" style="font-weight: bold">find me<i
+                        class="material-icons right">arrow_drop_down</i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<!-- Mobile Navigation -->
+<ul class="sidenav fixed" id="mobile-demo">
+    <li><a class="pink-text text-lighten-3" href="aboutme.html" style="font-weight: bold; font-size: 20px;">about me</a>
+    </li>
+    <li><a class="pink-text text-lighten-3" href="portfolio.html"
+           style="font-weight: bold; font-size: 20px;">portfolio</a></li>
+    <li><a class="pink-text text-lighten-3" href="https://instagram.com/adoubleu_design/"
+           style="font-weight: bold; font-size: 20px;">instagram</a>
+    </li>
+    <li><a class="pink-text text-lighten-3" href="https://www.facebook.com/adoubleudesign/"
+           style="font-weight: bold; font-size: 20px;">facebook</a>
+    </li>
+    <li><a class="pink-text text-lighten-3" href="https://www.linkedin.com/in/amy-wellcoat-624a52190"
+           style="font-weight: bold; font-size: 20px;">linkedin</a></li>
+
+</ul>
+
+<!-- ready for javascript -->
+<script>
+    $(document).ready(function () {
+        $('.sidenav').sidenav();
+    });
+
+    $(document).ready(function () {
+        $('.modal').modal();
+    });
+
+      $(document).ready(function(){
+    $('.parallax').parallax();
+  });
+
+  $(document).ready(function(){
+     $(".dropdown-trigger").dropdown();
+  });
+
+
+</script>
+
+<!-- body content -->
+<br>
+<div class="row">
+    <!-- Mobile text only -->
+    <div class="col hide-on-med-and-up m3">
+        <h4 class="grey-text text-darken-1" style="font-weight: bold">Cosmic Coffee</h4>
+        <p class="grey-text text-darken-1"> This was a collaboration with a fellow designer where we briefed ourselves
+            for a personal project together. The task was to create our own modern coffee brand and packaging for three
+            different flavours, using various materials which could ultimately be reused.</p>
+        <p class="grey-text text-darken-1"> We brainstormed ideas and each took on our own roles. Together we designed
+            simple branding which would suit the contemporary visuals. I fully illustrated the packaging for the three
+            designs based on the origin of the coffees, whilst my colleague arranged the compositions with text for
+            mock-
+            ups. The outer packaging is made from tin, with a sleeve that can slide off and become a transparent candle
+            holder.</p>
+        <br>
+        <br>
+    </div>
+    <!-- media content -->
+    <div class="col s12 m7 l8 center">
+        <br>
+        <!-- images -->
+        <img class="responsive-img" src="assets/personal project mockup.png">
+        <img class="responsive-img" src="assets/Kenya.png">
+    </div>
+    <!-- desktop text only -->
+    <div class="col hide-on-small-only m4 l4">
+        <div class="container">
+            <h4 class="grey-text text-darken-1" style="font-weight: bold">Cosmic Coffee</h4>
+            <p class="grey-text text-darken-1"> This was a collaboration with a fellow designer where we briefed
+                ourselves for a personal project together. The task was to create our own modern coffee brand and
+                packaging for three different flavours, using various materials which could ultimately be reused.</p>
+            <p class="grey-text text-darken-1"> We brainstormed ideas and each took on our own roles. Together we
+                designed simple branding which would suit the contemporary visuals. I fully illustrated the packaging
+                for the three designs based on the origin of the coffees, whilst my colleague arranged the compositions
+                with text for mock- ups. The outer packaging is made from tin, with a sleeve that can slide off and
+                become a transparent candle holder.</p>
+            <br>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<footer class="page-footer pink lighten-3">
+    <div class="container">
+        <div class="row">
+            <div class="col l4 s8">
+                <h5 class="white-text">Get in touch</h5>
+                <ul>
+                    <li><i class="tiny material-icons">phone_iphone</i> <a class="white-text">+44 (0)7500956758</a></li>
+                    <li><i class="tiny material-icons">mail</i><a class="white-text"
+                                                                  href="mailto:amywellcoat@yahoo.com">
+                        amywellcoat@yahoo.com</a></li>
+                </ul>
+
+            </div>
+            <div class="col l4 s12 offset-l2">
+                <h5 class="white-text">Connect with me</h5>
+                <ul>
+                    <li><a class="white-text" href="https://instagram.com/adoubleu_design/">Instagram</a></li>
+                    <li><a class="white-text" href="https://www.facebook.com/adoubleudesign/">Facebook</a></li>
+                    <li><a class="white-text" href="https://www.linkedin.com/in/amy-wellcoat-624a52190">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            Made by Amy Wellcoat
+            <a class="white-text"></a>
+        </div>
+    </div>
+</footer>
+<!-- Footer End -->
+
+</body>
+<!-- end body -->
+</html>
